@@ -61,6 +61,19 @@ body {
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 hr {
   -webkit-box-sizing: content-box;
@@ -8770,7 +8783,7 @@ textarea.form-control {
     display: inline-block; }
 
 .ftco-section {
-  padding: 7em 0;
+  padding: 2em 0;
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
